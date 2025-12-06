@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="robots" content="index">
+    <meta name="robots" content="follow">
+    <link rel="stylesheet" href="../Css/style.css">
+    <link rel="stylesheet" href="../Css/normalize.css">
+    <link rel="stylesheet" href="../Lib/fontawesome/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Página Web de Pizza</title>
+    <link rel="icon" href="../Img/logo.png">
+</head>
+<body>
+        <div id="btn-top" class="hide-btn">
+            <span class="fas fa-angle-up"></span>
+        </div>
+        
+        <div class="nav">
+            <div class="nav__logo" id="logo">
+                <img src="../Img/logo.png" alt="Logo World's Pizza" class="logo">
+            </div>
+            <div class="nav__main" id="menuBar">
+                <i class="fas fa-angle-right" id="btnMenuClose"></i>
+                <nav class="nav__main-enlaces" id="enlaces">
+                    <ul class="enlaces__ul">
+                        <li class="enlaces__li"><a href="#servicios" class="enlaces__a">Servicios</a></li>
+                        <li class="enlaces__li"><a href="#equipo" class="enlaces__a">Equipo</a></li>
+                        <li class="enlaces__li"><a href="#contacto" class="enlaces__a">Contacto</a></li>
+                    </ul>
+                </nav>
+    
+                <div class="redes">
+                    <a href="#"><span class="fab fa-facebook"></span></a>
+                    <a href="#"><span class="fab fa-instagram"></span></a>
+                    <a href="#"><span class="fab fa-whatsapp"></span></a>
+                    <a href="#"><span class="fab fa-x-twitter"></span></a>
+                </div>
+            </div>
+            <i class="fas fa-bars" id="btnMenuOpen"></i>
+        </div>
+    
+        <section id="carrusel">
+            <div class="containerCarrusel">
+                <button id="btnCarruselLeft"><span class="fas fa-angle-left"></span></button>
+    
+                <div class="carrusel">
+                    <div class="carrusel__item">
+                        <div class="carrusel__item-descripcion">
+                            <h2>Producto <b>premium</b></h2>
+                            <h1>Pepperoni</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam magni temporibus quisquam inventore soluta recusandae culpa placeat</p>
+                            <button class="btn"> ¡Solícitala aquí! <span class="fas fa-angle-right"></span></button>
+                        </div>
+                        <div class="carrusel__item-img">
+                            <img src="../Img/peperoni.png" alt="Pizza de Pepperoni">
+                        </div>
+                    </div>
+                    <div class="carrusel__item">
+                        <div class="carrusel__item-descripcion">
+                            <h2>Producto <b>especial</b></h2>
+                            <h1>Cuatro Quesos</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam magni temporibus quisquam inventore soluta recusandae culpa placeat</p>
+                            <button class="btn"> ¡Solícitala aquí! <span class="fas fa-angle-right"></span></button>
+                        </div>
+                        <div class="carrusel__item-img">
+                            <img src="../Img/cuatro quesos.png" alt="Pizza Cuatro Quesos">
+                        </div>
+                    </div>
+                    <div class="carrusel__item">
+                        <div class="carrusel__item-descripcion">
+                            <h2>Producto <b>premium</b></h2>
+                            <h1 >Especial</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam magni temporibus quisquam inventore soluta recusandae culpa placeat</p>
+                            <button class="btn"> ¡Solícitala aquí! <span class="fas fa-angle-right"></span></button>
+                        </div>
+                        <div class="carrusel__item-img">
+                            <img src="../Img/especial.png" alt="Pizza Especial">
+                        </div>
+                    </div>
+                    <div class="carrusel__item">
+                        <div class="carrusel__item-descripcion">
+                            <h2>Producto <b>premium</b></h2>
+                            <h1>Margarita</h1>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam magni temporibus quisquam inventore soluta recusandae culpa placeat</p>
+                            <button class="btn"> ¡Solícitala aquí! <span class="fas fa-angle-right"></span></button>
+                        </div>
+                        <div class="carrusel__item-img">
+                            <img src="../Img/margarita.png" alt="Pizza Margarita">
+                        </div>
+                    </div>
+                    <div class="carrusel__item">
+                        <div class="carrusel__item-descripcion">
+                            <h2>Producto <b>especial</b></h2>
+                            <h1>Cuatro Estaciones</h1>
+                            <p >Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laboriosam magni temporibus quisquam inventore soluta recusandae culpa placeat</p>
+                            <button class="btn"> ¡Solícitala aquí! <span class="fas fa-angle-right"></span></button>
+                        </div>
+                        <div class="carrusel__item-img">
+                            <img src="../Img/cuatro estaciones.png" alt="Pizza Cuatro Estaciones">
+                        </div>
+                    </div>
+                </div>
+    
+                <button id="btnCarruselRight"><span class="fas fa fa-angle-right"></span></button>
+            </div>
+        </section>
+    
+        <section id="servicios">
+            <div class="servicios__titulos">
+                <h1 class="sub">La mejor pizza del mundo</h1>
+                <h2 class="titulo">Bienvenido a Burrata Pizzeria</h2>
+            </div>
+            <div class="servicios__container">
+                <div class="servicios__container-img">
+                    <img src="../Img/mitad.png" alt="">
+                </div>
+    
+                <div class="servicios__container-item calidad">
+                    <p><span class="fas fa-pizza-slice"></span></p>
+                    <p class="titulo-item">Calidad</p>
+                    <p class="texto-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit sit, repellendus</p>
+                </div>
+                <div class="servicios__container-item ingredientes">
+                    <p><span class="fas fa-cheese"></span></p>
+                    <p class="titulo-item">Ingredientes</p>
+                    <p class="texto-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit sit, repellendus</p>
+                </div>
+                <div class="servicios__container-item rapidez">
+                    <p><span class="fas fa-clock"></span></p>
+                    <p class="titulo-item">Rapidez</p>
+                    <p class="texto-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit sit, repellendus</p>
+                </div>
+                <div class="servicios__container-item delivery">
+                    <p><span class="fas fa-shipping-fast"></span></p>
+                    <p class="titulo-item">Delivery</p>
+                    <p class="texto-item">Lorem ipsum dolor sit amet, consectetur adipisicing elit sit, repellendus</p>
+                </div>
+            </div>
+        </section>
+    
+        <section id="equipo">
+            <div class="equipo__item">
+                <img src="../Img/chef1.png" alt="" class="equipo__item-img">
+                <div class="equipo__item-info">
+                    <h2>Clara Fernández</h2>
+                    <p>Chef Pizzera</p>
+                    <div class="social">
+                        <a href="#"><span class="fab fa-facebook"></span></a>
+                        <a href="#"><span class="fab fa-instagram"></span></a>
+                        <a href="#"><span class="fab fa-x-twitter"></span></a>
+                        <a href="#"><span class="fab fa-linkedin-in"></span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="equipo__item">
+                <img src="../Img/chef2.png" alt="" class="equipo__item-img">
+                <div class="equipo__item-info">
+                    <h2>Santiago Pérez</h2>
+                    <p>Chef</p>
+                    <div class="social">
+                        <a href="#"><span class="fab fa-facebook"></span></a>
+                        <a href="#"><span class="fab fa-instagram"></span></a>
+                        <a href="#"><span class="fab fa-x-twitter"></span></a>
+                        <a href="#"><span class="fab fa-linkedin-in"></span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="equipo__item">
+                <img src="../Img/chef3.png" alt="" class="equipo__item-img">
+                <div class="equipo__item-info">
+                    <h2>Lucía Gómez</h2>
+                    <p>Asistente de Chef</p>
+                    <div class="social">
+                        <a href="#"><span class="fab fa-facebook"></span></a>
+                        <a href="#"><span class="fab fa-instagram"></span></a>
+                        <a href="#"><span class="fab fa-x-twitter"></span></a>
+                        <a href="#"><span class="fab fa-linkedin-in"></span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="equipo__item">
+                <img src="../Img/chef4.png" alt="" class="equipo__item-img">
+                <div class="equipo__item-info">
+                    <h2>Jesús Lozano</h2>
+                    <p>Asistente</p>
+                    <div class="social">
+                        <a href="#"><span class="fab fa-facebook"></span></a>
+                        <a href="#"><span class="fab fa-instagram"></span></a>
+                        <a href="#"><span class="fab fa-x-twitter"></span></a>
+                        <a href="#"><span class="fab fa-linkedin-in"></span></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section id="ingredientes">
+            <div class="ingredientes__item">
+                <img src="../Img/queso.jpg" alt="" class="ingredientes__item-img">
+                <div class="ingredientes__item-info">
+                    <p><span class="fas fa-cheese"></span></p>
+                    <p class="info__text">Quesos</p>
+                </div>
+            </div>
+            <div class="ingredientes__item">
+                <img src="../Img/vegetales.jpg" alt="" class="ingredientes__item-img">
+                <div class="ingredientes__item-info">
+                    <p><span class="fas fa-leaf"></span></p>
+                    <p class="info__text">Vegetales</p>
+                </div>
+            </div>
+            <div class="ingredientes__item">
+                <img src="../Img/salsa.jpg" alt="" class="ingredientes__item-img">
+                <div class="ingredientes__item-info">
+                    <p><span class="fas fa-fill-drip"></span></p>
+                    <p class="info__text">Salsas</p>
+                </div>
+            </div>
+            <div class="ingredientes__item">
+                <img src="../Img/carnes.jpg" alt="" class="ingredientes__item-img">
+                <div class="ingredientes__item-info">
+                    <p><span class="fas fa-drumstick-bite"></span></p>
+                    <p class="info__text">Carnes</p>
+                </div>
+            </div>
+        </section>
+    
+        <section id="contacto">
+            <div class="contacto__titulo">
+                <h2 class="sub">Queremos saber tu opinión</h2>
+                <h1 class="titulo">Contáctanos</h1>
+            </div>
+            <form action="" id="formulario">
+                <div class="two-fields">
+                    <div class="field__item">
+                        <input type="text" name="nombre" id="nombre" class="two-fields__name" placeholder="Nombre">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <div class="field__item">
+                        <input type="email" name="email" id="email" class="two-fields__email" placeholder="Email">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                </div>
+                <div class="formulario__containerTextarea">
+                    <div class="field__item textareaIcon">
+                        <textarea name="comentarios" id="comentarios" class="textarea" placeholder="Ingrese su mensaje"></textarea>
+                        <i class="fas fa-comments"></i>
+                    </div>
+                </div>
+                <div class="field-btn">
+                    <input type="submit" class="btn btn-input" value="Enviar">
+                </div>
+            </form>
+        </section>
+        
+        <div class="alertas">
+            <div class="alert hide" id="alertError">
+                <span class="icon-alert fas fa-exclamation-circle"></span>
+                <span class="txt">Error: Campos de entrada vacíos</span>
+            </div>
+            <div class="alert hide" id="alertSucess">
+                <span class="icon-alert fas fa-check-circle"></span>
+            <span class="txt">¡Datos enviados! Gracias por contactarnos</span>
+            </div>
+        </div>
+    
+    <footer>
+        <div class="footer__item">
+            <i class="fas fa-map-marker-alt"></i>
+            <span>Lorem ipsum dolor sit amet</span>
+        </div>
+
+        <div class="footer__item">
+            <i class="fas fa-envelope"></i>
+            <span>info@burratapizza.com</span>
+        </div>
+        
+        <div class="footer__item">
+            <i class="fas fa-phone"></i>
+            <span>+5493413858667</span>
+        </div>
+        
+        <div class="footer__item">
+            <i class="fab fa-x-twitter"></i>
+            <span>@burratapizza</span>
+        </div>
+    </footer>
+
+    <script src="../Js/script.js"></script>
+    <script src="https://kit.fontawesome.com/27dc8c9179.js" crossorigin="anonymous"></script>
+</body>
+</html>
